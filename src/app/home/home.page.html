@@ -1,15 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-item lines="none">
-      <ion-label style="font-weight: 600;font-size: 3em; ">
-        ToDo-ListApp
-        <p style="font-weight: 400; color:#433465;">Today: {{today | date:'fullDate'}}</p>
+    <ion-item lines="none" color="tertiary">
+      <ion-label style="
+      font-weight: 600;
+      font-size: 3em; color: rgb(136, 190, 8); 
+      text-align: center; 
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+      ">
+        ToDo-ListApp For Students<br>in St.Peter Elem School
+        <p style="font-weight: 400; color:#f1eff7;">Today: {{today | date:'fullDate'}}</p>
       </ion-label>
     </ion-item>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]='true' color="success">
+
+  
   <ion-card *ngFor="let item of todoList; let i = index " class="ion-margin">
     
     <ion-card-header>
