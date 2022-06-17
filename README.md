@@ -14,4 +14,4 @@ Project Design/Development Plan
       Android, PC (Windows 10/11)
       
       
-  # You can view the whole code of our Project App is master branch
+  # You can view the whole code of our Project App in master branch
